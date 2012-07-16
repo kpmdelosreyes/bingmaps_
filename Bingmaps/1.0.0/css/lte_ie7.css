@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+#main	{zoom:1;}
+#main_subpage	{zoom:1;}
+#middle_subpage	{zoom:1;}
+.edit_form li {zoom:1;}
+.selected_list		{zoom:1;}
+.book_mark	{zoom:1}
+
+/* for GNB */
+/* global > settings > sub navi */
+
+
+/* for width 100% input */
+.table_input_vr input {position:relative;}
+
+/* for display neccesary icon right */
+th label {float:left;}
+
+/* input table */
+.table_input_vr .chk_group {overflow-x:hidden}
+.table_input_vr .require_wrap .chk_group {width:249px}

@@ -1,0 +1,140 @@
+@charset "utf-8";
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+	input[type=file] {border:0;background:transparent !important} /* for chrome input=type */
+}
+/*----------------------reset style----------------------*/
+* {padding:0; margin:0;}
+html, body {height:100%}
+body {font-family:Tahoma, verdana, arial, sans-serif; font-size:12px; color:#444;}
+ul, ol, dl {list-style:none;}
+input, select {vertical-align:middle;}
+img, fieldset {border:0;}
+p, span, li, div {line-height:1.0em}
+input[type=image] {margin:0 !important;padding:0 !important;border:0 !important}
+
+a:hover, a:active {text-decoration:underline;line-height:normal}
+a {color:#3c7cb4;text-decoration:underline !important;line-height:normal}
+
+/*---------------------- common style ----------------------*/
+body	{background:#f7f7f6;}
+.input_msg_l {font-size:11px;margin-right:5px;font-style:italic;font-family:verdana}
+.input_msg_b {font-size:11px;margin-top:5px;font-style:italic;display:block;font-family:verdana}
+.neccesary	{margin-left:0;color:#dc4e22;font-family:tahoma, sans-serif;}
+th .neccesary {float:right;margin-right:8px}
+h3.extension_plugin_name {float:left;clear:both;width:100%;height:30px;margin:20px 0 0 0;background:url(../images/bl_extension_plugin.gif) left top no-repeat;
+	padding:0 0 0 25px;line-height:17px;font-weight:normal;font-size:20px;Tahoma, verdana, arial, sans-serif;}
+h3 {width:100%;float:left;font-size:12px;margin-bottom:5px}
+.require	{float:right;font-size:11px;color:#777;} 
+/* ------------------------ Additional CSS from Lei-----------------------------*/
+input.fix2 {width:40px !important;height:17px;line-height:22px;}
+table {font-size:12px;margin-top:10px}
+.module_title {font-family:Verdana;font-size:12px;font-weight:bold;font-style:normal;text-decoration:none;color:#000000;}
+.padt1 {padding-top:30px;} 
+.padt2 {padding-top:20px;} 
+.selected_wrap {margin:10px 0 10px 0;}
+.selected_wrap span  {margin-right:10px}
+.selected_wrap span label {width:40px !important;display:inline-block;line-height:15px}
+
+
+.table_input_vr td .module_input_fix  {display:inline-block;border:1px solid blue !important}
+.table_input_vr td .check_fix {margin-left:20px;}
+.table_input_vr td .check_fix input, .table_input_vr td .check_fix label {vertical-align:middle}
+.table_input_vr td .check_fix input {margin-right:10px;}
+input.btn {width:100px; height:22px !important;padding-bottom:2px;margin-left:5px;color:#777;font-size:11px;font-family:verdana, arial, sans-serif;margin-left:10px;}
+.bm_display_opt {cursor:pointer}
+
+/* input table */
+.table_input_vr {width:100%;margin-bottom:33px;border:0}
+.table_input_vr th {padding:15px 0;border:0;font-weight:normal;text-align:left;vertical-align:top;color:#444;line-height:normal}
+.table_input_vr td {padding:15px 0;border:0;color:#777;text-align:left;}
+.table_input_vr th.pad_fix {padding:9px 0}
+.table_input_vr td.pad_fix {padding:9px 0}
+.table_input_vr a {text-decoration:underline !important}
+.table_input_vr p {margin-top:3px}
+.table_input_vr input.fix {width:298px}
+.table_input_vr input.fix_size {width:43px}
+.table_input_vr textarea {width:288px;padding:5px;height:50px;}
+
+.input_file {background:#fff !important;height:20px;}
+textarea	{padding:10px;border:1px solid #ccc;font-size:11px;font-family:verdana, arial, sans-serif;color:#777;}
+select 		{/*height:20px;border:1px solid #c8c8c8;*/font-size:11px;font-family:verdana, arial, sans-serif;color:#777;}/* select ���� �ϳ��� ���� */
+
+.btn_apply {border:none;display:inline-block;padding:4px 36px 5px 35px;background:#000 url(../images/bg_btn_input.gif) repeat-x;font-weight:bold;font-size:13px;color:#fff;text-decoration:none !important;				
+											vertical-align:middle} 
+
+.msg_suc_box {margin:0 0 10px 0;border:1px solid #dad5b2;background:#fffce8;font-weight:bold;font-size:11px;color:#693;text-align:center;line-height:normal}
+.msg_suc_box p {margin:0 !important;padding:8px 10px !important}
+.msg_suc_box p span {padding:2px 0 2px 23px;background:url(../images/bg_suc_box.gif) no-repeat}
+
+
+#pg_map_wrap {position:relative;margin-top:10px;display:inline-block;width:640px;height:480px;overflow:hidden;border:1px solid #ddd}
+#pg_map_outer {position:absolute;display:inline-block;width:640px;height:480px}
+.pg_map_inner {position:relative;overflow:hidden;width:640px;height:480px;display:inline-block;border:1px solid #ddd}
+
+
+/*
+ #pg_map {margin-top:10px;display:inline-block;width:640px;height:480px;border:5px solid silver} 
+#pg_map_wrap {#position:relative;overflow:hidden;height:480px;width:640px;display:table}
+#pg_map_outer {#position:absolute;#top:50%;#left:50%;text-align:center;display:table-cell;vertical-align:middle;}
+.pg_map_inner {#position:relative;#top:-50%;#;margin:0 auto; text-align:left;}
+*/
+
+
+/*for bingmaps dashboard added by : piadelosreyes*/
+
+.header {visibility: hidden;}
+#navAction_OrthoMapView {visibility: hidden;}
+#navAction_mapViewCell {visibility: hidden;}
+#navAction_mapStyleCell{visibility: hidden;}
+div .dashboardContainerDiv {background-color: red;border-color: black;}
+#obliqueNotification {visibility: hidden;}
+
+.pg_pushpin_tbl {width:50%;}
+.pg_pushpin td.pg_pushpin_td {padding-top:5px;}
+.pg_pushpin_tbl tr.tr_title  {padding-top:0;margin-top:0}
+.pg_pushpin_tbl th.th_title {padding-top:0;margin-top:0}
+.pg_pushpin_tbl td.td_title {padding-top:0;margin-top:0}
+.pg_pushpin_tbl tr td.pg_btn_wrap {text-align:center}
+
+#mapContainer .MicrosoftMap .NavBar {
+	width: 100%;border:1px solid red;
+}
+
+ .infobox 
+  {
+   position: absolute;
+   border: solid 2px violet !important;
+   background-color: pink;
+   z-index: 1000;
+   padding: 5px;
+   width: 180px;
+  }
+
+/*for bingmaps minimap added by : piadelosreyes*/
+
+.MiniMap
+{
+    border: solid 1px #777;
+    width: 150px;
+    height: 150px;
+}
+
+/* css for BINGmap navigation... */
+
+.NavBar_compassControlContainer {width:80px !important;position:absolute;left:12px !important;top:40px !important}
+
+.NavBar_zoomControlContainer {position:absolute;top:150px !important;left:0px !important;}
+
+.BreadcrumbContainer {border:0 !important;position:absolute;left:10px !important}
+
+
+.NavBar_modeSelectorControlContainer{
+-moz-box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+-webkit-box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+border: 1px solid #aaaaaa;
+border-top: none;
+}
+
+
+.MapTypeId_m {width:100% !important;height:100% !important}

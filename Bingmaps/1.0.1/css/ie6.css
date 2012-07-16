@@ -1,0 +1,20 @@
+.NavBar_modeSelectorControlContainer {width:110px !important;position:absolute;left:0 !important}
+.NavBar_button {width:80px !important}
+.NavBar_typeButton {}
+.NavBar_separator {display:none !important;}
+.separator {display:none !important}
+.NavBar_typeButton {border:1px solid black}
+.NavBar_dropIconContainer {left:80px}
+
+/* Plus and Minus Zoom */
+.NavBar_zoomControlContainer {width:52px !important;position:absolute;left:5px !important;top:90px !important}
+.NavBar_zoomDrop {position:absolute;height:155px !important;left:-15px !important}
+
+
+/* left/right/up/down arrow */
+.NavBar_compassControlContainer {position:absolute;left:5px !important;height:50px !important;top:100px !important}
+
+
+
+.BreadcrumbContainer {border:0 !important;position:absolute;left:5px !important}
+.pathContainer {}
